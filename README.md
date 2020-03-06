@@ -1,1 +1,1 @@
-Project template Dagger android, MVVM, Kotlin Flow, Live Data, Room
+Playing with Kotlin Flow, Live Data, Room, MVVM 
