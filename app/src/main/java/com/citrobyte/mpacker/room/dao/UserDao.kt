@@ -16,6 +16,9 @@ interface UserDao{
     @Query("SELECT * FROM user WHERE userId =0")
     fun getUser():User?
 
+    @Query("SELECT * FROM user WHERE userId =0")
+    fun getUserFlow():Flow<User?>
+
     @Query("DELETE FROM user")
     fun deleteAll()
 }

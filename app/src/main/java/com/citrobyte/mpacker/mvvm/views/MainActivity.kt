@@ -10,6 +10,7 @@ import com.citrobyte.mpacker.mvvm.viewmodels.MainActivityViewModel
 import com.citrobyte.mpacker.mvvm.viewmodels.ViewModelProviderFactory
 import com.citrobyte.mpacker.utils.Logger
 import dagger.android.support.DaggerAppCompatActivity
+import kotlinx.android.synthetic.main.activity_main.*
 import javax.inject.Inject
 
 class MainActivity : DaggerAppCompatActivity() {
@@ -35,6 +36,17 @@ class MainActivity : DaggerAppCompatActivity() {
             }
         })
 
+        mainViewModel.getUserFlow.observe(this, Observer {
+            Logger.i("on user flow =  ${it?.firstName}")
+        })
+
+        button.setOnClickListener {
+            mainViewModel.saveNewUser()
+        }
+
+        button2.setOnClickListener {
+            mainViewModel.deleteAllUsers()
+        }
 
     }
 }
