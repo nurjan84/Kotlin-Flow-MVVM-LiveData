@@ -1,0 +1,36 @@
+<resources>
+
+    <!--messages-->
+    <string name="error">Ошибка</string>
+    <string name="ok">Ок</string>
+    <string name="retry">Повторить</string>
+    <string name="cancel">Отмена</string>
+    <string name="cancel2">Отменить</string>
+    <string name="close">Закрыть</string>
+    <string name="yes">Да</string>
+    <string name="next">Далее</string>
+    <string name="delete">Удалить</string>
+    <string name="socket_timeout_exception">Отсутствует подключение к интернету. Попробуйте снова.</string>
+    <string name="version_error">Версия приложения устарела. Обновить?</string>
+    <string name="enter_phone_number">Введите номер телефона</string>
+    <string name="fingerprint_failed">Отпечаток не распознан, попробуйте еще раз</string>
+    <string name="getting_new_default_toke_error">Ваша сессия истекла.Не могу получить новую сессисю. Поторить зарос?</string>
+    <string name="session_error">Ваша сессия истекла. Нужно перелогиниться.</string>
+    <string name="map_stores_error">Не удалось загрузить магазины. Повторить запрос?</string>
+    <string name="default_error">Ошибка! Повторить запрос?</string>
+    <string name="add_to_cart_error">Ошибка! Товар не добален в корзину</string>
+    <string name="remove_from_cart_error">Ошибка! Товар не убран из корзины</string>
+    <string name="clear_cart_message">Хотите полностью очистить корзину?</string>
+    <string name="epay_params_error">Не удалось получить необходимые параметры. Повторить запрос?</string>
+    <string name="delivery_schedule_error">Не удалось загрузить расписание доставки. Повторить запрос?</string>
+    <string name="address_change_caution">Внимание! При смене адреса, цены на товары могут измениться. Сменить адрес доставки?</string>
+    <string name="enter_name_msg">Введите имя получателя заказа</string>
+    <string name="enter_phone_msg">Введите номер телефона</string>
+    <string name="select_delivery_date_msg">Выберите дату и время доставки</string>
+    <string name="select_payment_options_msg">Выберите способ оплаты</string>
+    <string name="retry_exception">Ошибка связи с сервером. Повторить запрос?</string>
+    <string name="logout_msg">Хотите сменить аккаунт?</string>
+    <string name="turn_on_GPS">Включите GPS</string>
+    <string name="no_permission_to_use_gps">нет разрешения на использование GPS</string>
+
+</resources>
